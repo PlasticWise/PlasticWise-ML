@@ -87,5 +87,4 @@ Then, run the script to resize your images.
 If you have any questions, feel free to reach out to the project maintainer.
 
 Happy resizing!
-```
 
