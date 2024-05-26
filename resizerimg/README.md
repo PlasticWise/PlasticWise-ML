@@ -1,4 +1,3 @@
-```markdown
 # Image Resizing Script
 
 This script resizes images to 224x224 pixels for use in your project.
