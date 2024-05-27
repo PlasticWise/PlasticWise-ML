@@ -16,8 +16,9 @@ def resize_images(input_folder, output_folder, size=(224, 224)):
             # Simpan gambar yang sudah di-resize ke folder output
             img_resized.save(os.path.join(output_folder, filename))
 
+
 # Contoh penggunaan
-input_folder = r'C:\MulaiPemograman\project\PlasticWise\PlasticWise-ML\PET\PlasticBottle\valid\images'  # Ganti dengan path folder input Anda
-output_folder = r'C:\MulaiPemograman\project\PlasticWise\PlasticWise-ML\PET\PlasticBottle\resize_val'  # Ganti dengan path folder output Anda
+input_folder = r'path\to\input\folder'  # Replace with your input folder path
+output_folder = r'path\to\output\folder'  # Replace with your output folder path
 
 resize_images(input_folder, output_folder)
